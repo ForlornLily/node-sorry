@@ -4,12 +4,14 @@ const Render = require('../controller/render');
 
 //主页
 router.get('/', function (req, res, next) {
-  res.redirect('./sorry/');
+  res.redirect('./sorry');
 });
 
 //选择模板页面
 router.get('/:name', function (req, res, next) {
-  res.render('./' + req.params.name + '/index');
+  res.render('./' + req.params.name,{
+  	name: req.params.name
+  });
 });
 
 //生成模板
