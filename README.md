@@ -4,7 +4,7 @@
 
 ## 说明
 
-分支仅做出小部分修改；核心内容尚未探索。
+分支将html模板更改为ejs；核心内容尚未探索。
 
 思路参考[sorry](https://github.com/xtyxtyx/sorry)
 目前已有
