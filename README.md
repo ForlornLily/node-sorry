@@ -85,11 +85,11 @@
    
    
 ```
-<hr/>
+
 ## 项目无关文件
 
 img文件夹：README.md 从0开始部署服务器所用图片
-<hr/>
+
 
 ## 从0开始部署服务器
 
@@ -106,39 +106,49 @@ Vultr注册、登录、账户充值不再赘述。
 
 ### 服务器创建
 注册完成后，在左边选择“Servers”标签，点击右边的加号部署新的服务器
+
 ![](img/Deploy01.png)
 
 任选一个地点，当然靠近中国的亚洲地区延迟会低一些。即东京、新加坡
 
 此处笔者选了New York。（因为它有2.5美元/月套餐）。套餐收费规则请自行百度
+
 ![](img/Deploy02.png)
  
 往后选择操作系统，笔者为CentOS 6 64位；
 
 第三步选择硬件，各位按需
+
  ![](img/Deploy03.png)
  
 后面的参数跳过，笔者也不懂_(:з)∠)_只用默认的，点击Deploy Now。
+
  ![](img/Deploy04.png)
  
 等待两三分钟，服务器即可安装完成。
+
  ![](img/Deploy05.png)
  
 点击服务器名字（此处为Cloud Instance）进入概览
+
  ![](img/Deploy06.png)
  
 连接服务器进行操作，可以用软件，比如PuTTy，或者Vultr自带的控制台
+
  ![](img/Login01.png) 
+ 
 ### 登录
 
 登录名输入为root，按Enter
 
 登录密码，点击眼睛即可显示
+
  ![](img/Login02.png)
  
 <strong>注：登录密码即使键盘输入也不会显示</strong>
 
 登陆成功
+
   ![](img/Login03.png)
   
 Vultr给的初始密码太过复杂，建议改个密码，敲入命令passwd
@@ -146,6 +156,7 @@ Vultr给的初始密码太过复杂，建议改个密码，敲入命令passwd
 输入用户自己的密码（同样不会显示）
 
 再度确认
+
  ![](img/changePW.png)
  
 那么下次连接的时候就用新密码了。
@@ -162,7 +173,9 @@ Vultr给的初始密码太过复杂，建议改个密码，敲入命令passwd
 ### 环境部署：在线生成动图涉及到ffmpeg和Node.js。
 
 #### ffmpeg安装
+
 命令行依次敲入：
+
 ```
 wget https://ffmpeg.org/releases/ffmpeg-3.4.2.tar.bz2
 yum -y install bzip2
@@ -177,6 +190,7 @@ make install
 ```
 
 #### Node.js安装
+
 ```
 curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 yum -y install nodejs
