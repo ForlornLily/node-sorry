@@ -257,6 +257,15 @@ service iptables stop
 
 关闭puTTY后进程中止，想要继续后台运行，可以参考[Express官方文档](http://www.expressjs.com.cn/advanced/pm.html)
 
+####  4.字幕未渲染
+
+CentOS缺少中文字体：
+将本地系统的C:\Windows\Fonts选取字体，复制到/usr/share/fonts；
+刷新内存中的字体缓存
+```
+fc-cache
+```
+参考文章[ Linux CentOS 7 安装字体库 & 中文字体](https://blog.csdn.net/wlwlwlwl015/article/details/51482065)
 ## 我看过的Node.js入门资料（0后台基础）：
 <ul>
 <li>书籍<a href="https://www.amazon.cn/dp/B00ALPRM3W/ref=sr_1_6?ie=UTF8&qid=1522147601&sr=8-6&keywords=nodejs" title="Node.js开发指南">Node.js开发指南</a> by 郭家宝(BYVoid)：只看前4章，后面使用express框架做项目已经过时，和现版本相差太大，不建议观看</li>
