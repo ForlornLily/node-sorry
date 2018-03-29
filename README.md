@@ -14,6 +14,8 @@
 <li>本地为Windows10</li>
 </ul>
 
+![](img/popteamepic.gif)
+
 ## 文章目录：
 
 <ol>
@@ -157,7 +159,7 @@ Vultr给的初始密码太过复杂，建议改个密码，敲入命令passwd
 
 再度确认
 
- ![](img/changePW.png)
+ ![](img/changPW.png)
  
 那么下次连接的时候就用新密码了。
 
@@ -235,6 +237,7 @@ npm start
 yum install gcc
 ```
 它会先下载，再问你是否安装，当然输入y
+
  ![](img/gcc.png)
  
 继续./configure --enable-libass
