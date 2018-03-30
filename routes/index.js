@@ -4,7 +4,7 @@ const Render = require('../controller/render');
 
 //主页
 router.get('/', function (req, res, next) {
-  res.redirect('./sorry');
+  res.redirect('./sorry/');
 });
 
 //选择模板页面

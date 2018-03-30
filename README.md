@@ -37,6 +37,7 @@
 			</li>
 		</ol>
 	</li>
+	<li>参考资料</li>
 	<li>我看过的Node.js入门资料</li>
 </ol>
 
@@ -265,7 +266,16 @@ CentOS缺少中文字体：
 ```
 fc-cache
 ```
-参考文章[ Linux CentOS 7 安装字体库 & 中文字体](https://blog.csdn.net/wlwlwlwl015/article/details/51482065)
+
+## 参考资料
+
+[主分支](https://github.com/q809198545/node-sorry)
+
+[便宜VPS+LAMP搭建+博客安装/优化教程](https://www.seoimo.com/wordpress-vps/)
+
+[ Linux CentOS 7 安装字体库 & 中文字体](https://blog.csdn.net/wlwlwlwl015/article/details/51482065)
+
+
 ## 我看过的Node.js入门资料（0后台基础）：
 <ul>
 <li>书籍<a href="https://www.amazon.cn/dp/B00ALPRM3W/ref=sr_1_6?ie=UTF8&qid=1522147601&sr=8-6&keywords=nodejs" title="Node.js开发指南">Node.js开发指南</a> by 郭家宝(BYVoid)：只看前4章，后面使用express框架做项目已经过时，和现版本相差太大，不建议观看</li>
