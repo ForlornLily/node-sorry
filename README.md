@@ -108,8 +108,6 @@ Vultr注册、登录、账户充值、服务器选择不再赘述。
 ### 登录
 
 登录名输入为root，按Enter
-
- ![](img/Login02.png)
  
 <strong>注：登录密码即使键盘输入也不会显示</strong>
 
