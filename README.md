@@ -5,15 +5,6 @@
 
 以下是dev分支有不同的地方，附带个人部署CentOS遇到的问题与解决
 
-此时笔者的个人背景
-<ul>
-<li>看得懂英文</li>
-<li>看不懂会百度</li>
-<li>Node.js知道是什么，ffmpeg不了解，Linux知道输入命令要按Enter</li>
-<li>HTML、CSS、jQuery使用者，未接触过其他后台语言</li>
-<li>本地为Windows10</li>
-</ul>
-
 ![](img/popteamepic.gif)
 
 ## 文章目录：
@@ -84,7 +75,7 @@
 │
 ├─ffmpeg.exe                 // 方便window用户使用，linux请安装
 │
-└─pageage.json
+└─package.json
    
    
 ```
@@ -105,36 +96,10 @@ img文件夹：README.md 从0开始部署服务器所用图片
 
 百度Vultr即可，或者使用笔者的推广[链接](https://www.vultr.com/?ref=7229380)（读者创建服务器后，会送笔者10美金⊙▽⊙ ）
 
-Vultr注册、登录、账户充值不再赘述。
+Vultr注册、登录、账户充值、服务器选择不再赘述。
 
 ### 服务器创建
-注册完成后，在左边选择“Servers”标签，点击右边的加号部署新的服务器
-
-![](img/Deploy01.png)
-
-任选一个地点，当然靠近中国的亚洲地区延迟会低一些。即东京、新加坡
-
-此处笔者选了New York。（因为它有2.5美元/月套餐）。套餐收费规则请自行百度
-
-![](img/Deploy02.png)
- 
-往后选择操作系统，笔者为CentOS 6 64位；
-
-第三步选择硬件，各位按需
-
- ![](img/Deploy03.png)
- 
-后面的参数跳过，笔者也不懂_(:з)∠)_只用默认的，点击Deploy Now。
-
- ![](img/Deploy04.png)
- 
-等待两三分钟，服务器即可安装完成。
-
- ![](img/Deploy05.png)
- 
-点击服务器名字（此处为Cloud Instance）进入概览
-
- ![](img/Deploy06.png)
+笔者为CentOS 6 64位；
  
 连接服务器进行操作，可以用软件，比如PuTTy，或者Vultr自带的控制台
 
@@ -143,8 +108,6 @@ Vultr注册、登录、账户充值不再赘述。
 ### 登录
 
 登录名输入为root，按Enter
-
-登录密码，点击眼睛即可显示
 
  ![](img/Login02.png)
  
